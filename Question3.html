@@ -1,0 +1,36 @@
+<!-- QUESTION3
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Question3.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3aB-xZdfDuMPoNMhYvOgqee6FlENIaU9Asg&s" alt="PW Skills Logo" class="logo">
+        <ul class="nav-items">
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Job Portal</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <button class="login-btn" onclick="openModal()">Login</button>
+    </nav>
+    
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="/Question3.js"></script>
+       
+</body>
+</html>

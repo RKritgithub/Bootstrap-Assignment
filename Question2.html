@@ -1,0 +1,42 @@
+<!-- question1
+ Problem Statement
+In the assignment you have to create a simple carousel consisting of three slides with a controller and indicator
+on it to make it easy for the user to navigate to other slides easily.
+Also for all these three slides, you have to gather the image from the pw skills website (https://pwskills.com/).
+Any three recent course images can be used in it. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Question2.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/976c0747-9631-4a3e-b17f-e0ea46a5eced.png" alt="Course 1">
+            </div>
+            <div class="slide">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/9bde412f-06a4-492d-a84a-17808c58abb7.png" alt="Course 2">
+            </div>
+            <div class="slide">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/31cc7e96-54ba-41dd-8f18-9dbb2ad35de9.png" alt="Course 3">
+            </div>
+        </div>
+        <div class="controls">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+        <div class="indicators">
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </div>
+    <script src="/Question2.js"></script>
+  
+</body>
+</html>
